@@ -45,15 +45,15 @@ public class QuizDbHelper extends SQLiteOpenHelper {
     }
 
     private void fillQuestionsTable() {
-        Question q1 = new Question("A is correct", "A", "B", "C", 1);
+        Question q1 = new Question("Who's Dr. Homi babha?", "A Nuclear Scientist", "B mechanical engineer", "C Computer Engineer", 1);
         addQuestion(q1);
-        Question q2 = new Question("B is correct", "A", "B", "C", 2);
+        Question q2 = new Question("What is the full name of Dr. Abdul Kalam?", "A Avul Jakir Jalaluddin Kalam", "B Avul Pakir Jainulabdeen Abdul Kalam", "C Abdul Sakir Jainulabdeen Kalam", 2);
         addQuestion(q2);
-        Question q3 = new Question("C is correct", "A", "B", "C", 3);
+        Question q3 = new Question("When was Dr. A.P.J. Abdul Kalam born?", "A 15 August 1923", "B 2 September 1929", "C   15 October 1931", 3);
         addQuestion(q3);
-        Question q4 = new Question("A is correct again", "A", "B", "C", 1);
+        Question q4 = new Question("Which island is named after Dr. A.P.J. Abdul Kalam?", "A  Wheeler Island, Odisha", "B  Landfall Island", "C Bhavani Island", 1);
         addQuestion(q4);
-        Question q5 = new Question("B is correct again", "A", "B", "C", 2);
+        Question q5 = new Question("Dr. A.P.J. Abdul Kalam was the ......President of India.", "A 9th ", "B 11th", "C 12th", 2);
         addQuestion(q5);
     }
 
